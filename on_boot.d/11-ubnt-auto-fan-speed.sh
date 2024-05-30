@@ -55,9 +55,9 @@ echo ${UBIOS_HDD_MAXIMUM_DUTY_FAN_PWM} >/sys/class/hwmon/hwmon0/device/pwm1_auto
 ################### 40000 equals 40 degree celsius ####################
 #######################################################################
 
-UBIOS_CPU_MINIMAL_TEMP='40000'       # default 45000, 45 degree celsius
-UBIOS_HDD_MINIMAL_TEMP='40000'       # default 90000, 90 degree celsius
-UBIOS_BRD_MINIMAL_TEMP='40000'       # default 90000, 90 degree celsius
+UBIOS_CPU_MINIMAL_TEMP='50000'       # default 45000, 45 degree celsius
+UBIOS_HDD_MINIMAL_TEMP='50000'       # default 90000, 90 degree celsius
+UBIOS_BRD_MINIMAL_TEMP='50000'       # default 90000, 90 degree celsius
 UBIOS_CPU_MAXIMUM_TEMP='66000'       # default 72000, 72 degree celsius
 UBIOS_HDD_MAXIMUM_TEMP='66000'       # default 112000, 112 degree celsius
 UBIOS_BRD_MAXIMUM_TEMP='66000'       # default 112000, 112 degree celsius
