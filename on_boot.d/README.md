@@ -8,7 +8,7 @@ If you apply inappropriate settings with this script, you will possibly (soft- o
 You can execute in UDM/Pro/SE and UDR with:
 
 ```bash
-curl -fsL "https://raw.githubusercontent.com/renedis/ubnt-auto-fan-speed/HEAD/on_boot.d/install.sh" | /bin/sh
+curl -fsL "https://raw.githubusercontent.com/jolovin/ubnt-auto-fan-speed/HEAD/on_boot.d/install.sh" | /bin/sh
 ```
 
 This is a force to install script so will uninstall any previous version and install on_boot keeping your on boot files.
